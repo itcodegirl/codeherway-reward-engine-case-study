@@ -51,6 +51,7 @@ h1 {
 	line-height: 0.92;
 	letter-spacing: -0.08em;
 	margin: 0 0 28px;
+	margin-bottom: 40px;
 }
 
 h1 span.gradient {
@@ -83,22 +84,23 @@ p {
 }
 
 .hero {
-	min-height: 86vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding: 120px 0;
 }
 
 .hero-copy {
-	max-width: 760px;
-	font-size: 1.25rem;
+	max-width: 520px;
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin-bottom: 40px;
 }
 
 .hero-actions {
-	display: flex;
-	gap: 14px;
-	flex-wrap: wrap;
-	margin: 34px 0;
+	margin-top: 20px;
+	margin-bottom: 60px;
 }
 
 .hero-actions a {
@@ -114,6 +116,10 @@ p {
 	background: var(--surface);
 	color: var(--text);
 	border: 1px solid var(--border);
+}
+
+.nowrap {
+	white-space: nowrap;
 }
 
 .metric-grid,

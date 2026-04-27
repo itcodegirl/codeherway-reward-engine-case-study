@@ -29,8 +29,10 @@ export default function RewardEngineCaseStudy() {
     <div>
       <p className="eyebrow">CodeHerWay Case Study</p>
       <h1>
-        Building a <span className="gradient">Production Ready</span> Reward Engine
-      </h1>
+  Building a <br />
+  <span className="gradient">Production Ready</span> <br />
+  Reward Engine
+</h1>
       <p className="hero-copy">
         I rebuilt CodeHerWay’s progress system into a backend-backed,
         event-driven reward engine designed to prevent duplicate XP, persist
