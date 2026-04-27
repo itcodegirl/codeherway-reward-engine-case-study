@@ -47,9 +47,7 @@ body {
 
 
 
-h1 span.gradient {
-	display: inline-block;
-}
+
 
 
 h2 {
@@ -72,28 +70,37 @@ p {
 	-webkit-text-fill-color: transparent;
 }
 
+h1 {
+	max-width: 760px;
+	font-size: clamp(4.25rem, 7vw, 7rem);
+	line-height: 0.95;
+	letter-spacing: -0.055em;
+	margin: 0 0 28px;
+}
+
 .hero {
-	min-height: 92vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 96px 0 72px;
+	padding: 110px 0 80px;
 }
 
-h1 {
-	max-width: 620px;
-	font-size: clamp(4rem, 5.5vw, 5.8rem);
-	line-height: 1.05;
-	letter-spacing: -0.045em;
-	margin-bottom: 28px;
+.hero-sub {
+	max-width: 520px;
+	font-size: 1.1rem;
+	color: var(--text);
+	opacity: 0.82;
+	margin: 0 0 12px;
 }
 
 .hero-copy {
-	max-width: 620px;
-	font-size: 1.18rem;
+	max-width: 560px;
+	font-size: 1.16rem;
 	line-height: 1.75;
 	margin: 0 0 34px;
 }
+
 
 .hero-actions {
 	display: flex;
@@ -358,10 +365,6 @@ blockquote {
 	gap: 60px;
 }
 
-.hero-copy {
-	max-width: 600px;
-}
-
 .footer {
 	margin-top: 140px;
 	padding: 56px;
@@ -461,15 +464,4 @@ blockquote {
 		grid-template-columns: 1fr;
 		gap: 36px;
 	}
-}
-
-.hero-sub {
-	font-size: 1.1rem;
-	color: var(--text);
-	opacity: 0.8;
-	margin-bottom: 12px;
-}
-
-.hero-copy {
-	margin-bottom: 28px;
 }
