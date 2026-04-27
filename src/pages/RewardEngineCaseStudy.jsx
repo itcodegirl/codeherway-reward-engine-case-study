@@ -44,11 +44,6 @@ export default function RewardEngineCaseStudy() {
       </div>
     </div>
 
-    <div className="hero-visual">
-      <img src="/login-ui.png"
-        alt="CodeHerWay learner dashboard showing progress and momentum"
-      />
-    </div>
   </div>
 
   <div className="metric-grid">
