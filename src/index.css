@@ -81,10 +81,10 @@ p {
 }
 
 h1 {
-	max-width: 700px;
-	font-size: clamp(3.8rem, 5.5vw, 5.5rem);
+	max-width: 620px;
+	font-size: clamp(4rem, 5.5vw, 5.8rem);
 	line-height: 1.05;
-	letter-spacing: -0.04em;
+	letter-spacing: -0.045em;
 	margin-bottom: 28px;
 }
 
@@ -461,4 +461,11 @@ blockquote {
 		grid-template-columns: 1fr;
 		gap: 36px;
 	}
+}
+
+.hero-sub {
+	font-size: 1.1rem;
+	color: var(--text);
+	opacity: 0.8;
+	margin-bottom: 12px;
 }

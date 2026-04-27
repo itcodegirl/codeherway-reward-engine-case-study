@@ -29,9 +29,16 @@ export default function RewardEngineCaseStudy() {
     <div>
       <p className="eyebrow">CodeHerWay Case Study</p>
 <h1>
-  <span className="gradient">Production ready</span> 
-  <span>reward engine</span>
-</h1>
+  Production-ready <br />
+  reward engine.
+            </h1>
+            <p className="hero-sub">
+  Built for real-world learning systems.
+</p>
+
+<p className="hero-copy">
+  Event-driven rewards using React and Supabase to ensure consistent progress tracking and eliminate duplicate XP.
+</p>
       <p className="hero-copy">
   Built an event-driven reward system using React and Supabase to ensure
   consistent progress tracking and eliminate duplicate XP.
