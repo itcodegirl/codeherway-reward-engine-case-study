@@ -28,11 +28,8 @@ export default function RewardEngineCaseStudy() {
   <div className="hero-grid">
     <div>
       <p className="eyebrow">CodeHerWay Case Study</p>
-    
-<h1>
-  Building a <br />
-  <span className="gradient">Production Ready</span> <br />
-  Reward Engine
+ <h1>
+  Building a production-ready reward engine for CodeHerWay.
 </h1>
       <p className="hero-copy">
         I rebuilt CodeHerWay’s progress system into a backend-backed,
