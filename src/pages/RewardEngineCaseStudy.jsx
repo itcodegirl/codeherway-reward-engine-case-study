@@ -24,33 +24,41 @@ const fixes = [
 export default function RewardEngineCaseStudy() {
   return (
     <main className="case-study">
-      <section className="hero section">
-        <p className="eyebrow">CodeHerWay Case Study</p>
-        <h1>
-  Building a <span className="gradient">Production Ready</span> Reward Engine
-</h1>
-        <p className="hero-copy">
-          I rebuilt CodeHerWay’s progress system into a backend-backed,
-          event-driven reward engine designed to prevent duplicate XP, persist
-          learner progress, and keep the UI responsive under real production
-          conditions.
-        </p>
+  <section className="hero section">
+  <div className="hero-grid">
+    <div>
+      <p className="eyebrow">CodeHerWay Case Study</p>
+      <h1>
+        Building a <span className="gradient">Production Ready</span> Reward Engine
+      </h1>
+      <p className="hero-copy">
+        I rebuilt CodeHerWay’s progress system into a backend-backed,
+        event-driven reward engine designed to prevent duplicate XP, persist
+        learner progress, and keep the UI responsive under real production
+        conditions.
+      </p>
 
-        <div className="hero-actions">
-          <a href="#architecture">View Architecture</a>
-          <a href="#debugging" className="secondary">
-            Debugging Journey
-          </a>
-        </div>
+      <div className="hero-actions">
+        <a href="#architecture">View Architecture</a>
+        <a href="#debugging" className="secondary">Debugging Journey</a>
+      </div>
+    </div>
 
-        <div className="metric-grid">
-          {metrics.map((metric) => (
-            <div className="metric-card" key={metric}>
-              {metric}
-            </div>
-          ))}
-        </div>  
-      </section>
+    <div className="hero-visual">
+      <img src="/login-ui.png"
+        alt="CodeHerWay learner dashboard showing progress and momentum"
+      />
+    </div>
+  </div>
+
+  <div className="metric-grid">
+    {metrics.map((metric) => (
+      <div className="metric-card" key={metric}>
+        {metric}
+      </div>
+    ))}
+  </div>
+</section>
        
 
       <section className="section intro-grid">
