@@ -32,18 +32,14 @@ export default function RewardEngineCaseStudy() {
   Production-ready <br />
   reward engine.
             </h1>
-            <p className="hero-sub">
+   <p className="hero-sub">
   Built for real-world learning systems.
 </p>
 
 <p className="hero-copy">
-  Event-driven rewards using React and Supabase to ensure consistent progress tracking and eliminate duplicate XP.
+  Event-driven rewards using React and Supabase to ensure consistent
+  progress tracking and eliminate duplicate XP.
 </p>
-      <p className="hero-copy">
-  Built an event-driven reward system using React and Supabase to ensure
-  consistent progress tracking and eliminate duplicate XP.
-</p>
-      
 
       <div className="hero-actions">
         <a href="#architecture">View Architecture</a>

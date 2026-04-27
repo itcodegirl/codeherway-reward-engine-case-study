@@ -469,3 +469,7 @@ blockquote {
 	opacity: 0.8;
 	margin-bottom: 12px;
 }
+
+.hero-copy {
+	margin-bottom: 28px;
+}
