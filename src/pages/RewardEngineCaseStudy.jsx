@@ -27,9 +27,8 @@ export default function RewardEngineCaseStudy() {
       <section className="hero section">
         <p className="eyebrow">CodeHerWay Case Study</p>
         <h1>
-          Building a <span className="gradient">Production-Ready</span> Reward
-          Engine
-        </h1>
+  Building a <span className="gradient">Production Ready</span> Reward Engine
+</h1>
         <p className="hero-copy">
           I rebuilt CodeHerWay’s progress system into a backend-backed,
           event-driven reward engine designed to prevent duplicate XP, persist
@@ -50,21 +49,27 @@ export default function RewardEngineCaseStudy() {
               {metric}
             </div>
           ))}
-        </div>
+        </div>  
       </section>
+       
 
       <section className="section intro-grid">
-        <div>
-          <p className="eyebrow">The Product</p>
-          <h2>CodeHerWay is a guided frontend learning platform.</h2>
-        </div>
-        <p>
-          The platform teaches beginners through structured lessons, quizzes,
-          progress tracking, and momentum-based learning. As the product grew,
-          the reward system needed to become trustworthy, testable, and ready
-          for real users.
-        </p>
-      </section>
+  <div>
+    <p className="eyebrow">The Product</p>
+    <h2>CodeHerWay is a guided frontend learning platform.</h2>
+    <p>
+      The platform teaches beginners through structured lessons, quizzes,
+      progress tracking, and momentum-based learning.
+    </p>
+  </div>
+
+  <div className="showcase">
+    <img
+      src="/platform-ui.png"
+      alt="CodeHerWay lesson interface"
+    />
+  </div>
+</section>
 
       <section className="section">
         <p className="eyebrow">The Challenge</p>
@@ -128,6 +133,12 @@ export default function RewardEngineCaseStudy() {
             </article>
           ))}
         </div>
+        <div className="showcase">
+  <img
+    src="/debug-logs.png"
+    alt="Backend reward logs"
+  />
+</div>
       </section>
 
       <section className="section results">
@@ -174,6 +185,32 @@ export default function RewardEngineCaseStudy() {
           a trustworthy, backend-backed learning engine.
         </blockquote>
       </section>
+      <footer className="footer">
+  <p className="eyebrow">CodeHerWay Case Study</p>
+
+  <div className="footer-content">
+    <div>
+      <h2>Production-ready learning systems, built with intention.</h2>
+      <p>
+        A frontend case study focused on reward architecture, backend trust,
+        product reliability, and user-centered learning experiences.
+      </p>
+    </div>
+
+    <div className="footer-links">
+      <a href="#architecture">Architecture</a>
+      <a href="#debugging">Debugging</a>
+      <a
+  href="https://github.com/itcodegirl/codeherway-reward-engine-case-study"
+  target="_blank"
+  rel="noreferrer"
+  className="primary-link"
+>
+  View Code on GitHub
+</a>
+    </div>
+  </div>
+</footer>
     </main>
   );
 }
