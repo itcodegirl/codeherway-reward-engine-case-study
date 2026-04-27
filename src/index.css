@@ -460,11 +460,3 @@ blockquote {
 		gap: 36px;
 	}
 }
-
-h1 {
-	max-width: 860px;
-	font-size: clamp(4rem, 7vw, 6.8rem);
-	line-height: 0.95;
-	letter-spacing: -0.055em;
-	margin: 0 0 28px;
-}

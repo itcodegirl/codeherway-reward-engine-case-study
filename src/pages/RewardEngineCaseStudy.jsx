@@ -28,7 +28,7 @@ export default function RewardEngineCaseStudy() {
   <div className="hero-grid">
     <div>
       <p className="eyebrow">CodeHerWay Case Study</p>
-<h1>
+    <h1>
   <span className="gradient">Production Ready</span>
   <br />
   Reward Engine
