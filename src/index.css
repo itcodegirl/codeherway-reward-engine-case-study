@@ -81,10 +81,11 @@ p {
 }
 
 h1 {
-	max-width: 520px;
-	font-size: clamp(3.8rem, 6vw, 5.8rem);
+	max-width: 700px;
+	font-size: clamp(3.8rem, 5.5vw, 5.5rem);
 	line-height: 1.05;
-	letter-spacing: -0.05em;
+	letter-spacing: -0.04em;
+	margin-bottom: 28px;
 }
 
 .hero-copy {
