@@ -29,7 +29,7 @@ export default function RewardEngineCaseStudy() {
     <div>
       <p className="eyebrow">CodeHerWay Case Study</p>
 <h1>
-  <span className="gradient">Production-ready</span> <br />
+  <span className="gradient">Production ready</span> <br/>
   reward engine
 </h1>
       <p className="hero-copy">
