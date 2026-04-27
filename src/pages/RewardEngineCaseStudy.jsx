@@ -28,8 +28,8 @@ export default function RewardEngineCaseStudy() {
   <div className="hero-grid">
     <div>
       <p className="eyebrow">CodeHerWay Case Study</p>
- <h1>
-  Production ready <br />
+<h1>
+  <span className="gradient">Production-ready</span> <br />
   reward engine
 </h1>
       <p className="hero-copy">
