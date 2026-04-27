@@ -29,7 +29,7 @@ export default function RewardEngineCaseStudy() {
     <div>
       <p className="eyebrow">CodeHerWay Case Study</p>
 <h1>
-  <span className="gradient">Production ready reward engine</span>
+  <span className="gradient">Production ready <br/> reward engine</span>
 </h1>
       <p className="hero-copy">
   Built an event-driven reward system using React and Supabase to ensure
